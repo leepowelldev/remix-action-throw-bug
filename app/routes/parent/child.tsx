@@ -2,6 +2,7 @@ import { ActionFunction, useCatch } from 'remix';
 
 export const action: ActionFunction = () => {
   throw new Response('Thrown Response', { status: 418 });
+  // throw new Error('Thrown Error');
 };
 
 export default function IndexChildRoute() {
