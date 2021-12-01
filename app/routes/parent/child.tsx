@@ -20,3 +20,7 @@ export function CatchBoundary() {
     </div>
   );
 }
+
+export function ErrorBoundary() {
+  return <div>There was an error. Sorry.</div>;
+}
